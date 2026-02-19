@@ -1,27 +1,41 @@
-<modDesc descVersion="99">
-    <author>Arrow</author>
-    <version>1.0.0.0</version>
+<modDesc descVersion="106">
+    <author>Ritter</author>
+    <version>1.0.1.0</version>
     <title>
-        <en>More Visual Animals</en>
-        <de>Mehr Visuelle Tiere</de>
-        <fr>Animaux Plus Visuels</fr>
+        <en>More Visual Animals - Ritter version</en>
+        <de>Mehr Visuelle Tiere - Ritter Version</de>
+        <fr>Animaux Plus Visuels - Version Ritter</fr>
     </title>
     <description>
         <en>
-    <![CDATA[
-Standalone module from RealisticLivestock which increases the visual animal cap to 200 per placeable. Does nothing if RealisticLivestock is enabled. Slider to change the max limit of visual animals can be accessed with Shift+T.
+            <![CDATA[ This is a modified version of the More Visual Animals mod by Arrow-kb, a standalone module from RealisticLivestock.
+
+Increases the visual animal cap to 200 per placeable. Does nothing if RealisticLivestock is enabled. Slider to change the max limit of visual animals can be accessed with Shift+T.
+
+Changes from the original mod:
+- Fixed compatibility with other mods that hook into vehicle enter logic (e.g. CabCinematic).
+
+Source code: https://github.com/rittermod/FS25_MoreVisualAnimalsRM
 ]]>
-</en>
-<de>
-    <![CDATA[
-Standalone-Modul von RealisticLivestock, das die Anzahl der sichtbaren Tiere pro Platzierung auf 200 erhöht. Hat keine Wirkung, wenn RealisticLivestock aktiviert ist. Der Schieberegler zum Ändern der maximalen Anzahl sichtbarer Tiere kann mit Shift+T aufgerufen werden.
+        </en>
+        <de>
+            <![CDATA[ Dies ist eine modifizierte Version des More Visual Animals Mods von Arrow-kb, ein eigenständiges Modul von RealisticLivestock.
+
+Erhöht die Anzahl der sichtbaren Tiere pro Platzierung auf 200. Hat keine Wirkung, wenn RealisticLivestock aktiviert ist. Der Schieberegler zum Ändern der maximalen Anzahl sichtbarer Tiere kann mit Shift+T aufgerufen werden.
+
+Änderungen gegenüber dem Originalmod:
+- Kompatibilitätsproblem mit anderen Mods behoben, die sich in die Fahrzeug-Einstiegslogik einklinken (z.B. CabCinematic).
 ]]>
-</de>
-<fr>
-    <![CDATA[
-Module autonome de RealisticLivestock qui augmente la limite visuelle d'animaux à 200 par emplacement. N'a aucun effet si RealisticLivestock est activé. Le curseur permettant de modifier la limite maximale d'animaux visibles est accessible à l'aide de la combinaison de touches Shift+T.
+        </de>
+        <fr>
+            <![CDATA[ Ceci est une version modifiée du mod More Visual Animals d'Arrow-kb, un module autonome de RealisticLivestock.
+
+Augmente la limite visuelle d'animaux à 200 par emplacement. N'a aucun effet si RealisticLivestock est activé. Le curseur permettant de modifier la limite maximale d'animaux visibles est accessible à l'aide de la combinaison de touches Shift+T.
+
+Modifications par rapport au mod original:
+- Correction de la compatibilité avec d'autres mods qui modifient la logique d'entrée dans les véhicules (ex. CabCinematic).
 ]]>
-</fr>
+        </fr>
     </description>
     <iconFilename>icon_MoreVisualAnimals.dds</iconFilename>
     <multiplayer supported="false"/>

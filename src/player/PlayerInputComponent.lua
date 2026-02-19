@@ -84,28 +84,30 @@ end
 PlayerInputComponent.onFinishedRideBlending = Utils.overwrittenFunction(PlayerInputComponent.onFinishedRideBlending, MVA_PlayerInputComponent.onFinishedRideBlending)
 
 
-function MVA_PlayerInputComponent:onInputEnter()
+function MVA_PlayerInputComponent:onInputEnter(superFunc)
 
-	if g_time <= g_currentMission.lastInteractionTime + 200 then return end
-	
+    if g_time <= g_currentMission.lastInteractionTime + 200 then return end
+
     if g_currentMission.interactiveVehicleInRange == nil then
 
-		if self.rideablePlaceable ~= nil then
+        if self.rideablePlaceable ~= nil then
 
-			if self.rideablePlaceable:getAnimalCanBeRidden(self.rideableCluster.id) then
+            if self.rideablePlaceable:getAnimalCanBeRidden(self.rideableCluster.id) then
 
-				g_inputBinding:setContext(PlayerInputComponent.INPUT_CONTEXT_NAME_ANIMAL_RIDING, true, false)
-				g_currentMission:fadeScreen(1, 250, self.onFinishedRideBlending, self, { self.rideablePlaceable, self.rideableCluster, self.rideableHusbandry, self.player })
-				return
+                g_inputBinding:setContext(PlayerInputComponent.INPUT_CONTEXT_NAME_ANIMAL_RIDING, true, false)
+                g_currentMission:fadeScreen(1, 250, self.onFinishedRideBlending, self, { self.rideablePlaceable, self.rideableCluster, self.rideableHusbandry, self.player })
+                return
 
-			end
+            end
 
-			g_currentMission:addIngameNotification(FSBaseMission.INGAME_NOTIFICATION_CRITICAL, g_i18n:getText("shop_messageAnimalRideableLimitReached"))
-		end
+            g_currentMission:addIngameNotification(FSBaseMission.INGAME_NOTIFICATION_CRITICAL, g_i18n:getText("shop_messageAnimalRideableLimitReached"))
+            return
 
-	else
-		g_currentMission.interactiveVehicleInRange:interact(self.player)
-	end
+        end
+
+    end
+
+    return superFunc(self)
 
 end
 
