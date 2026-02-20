@@ -12,10 +12,28 @@
 
 Increases the visual animal cap to 200 per placeable. Does nothing if RealisticLivestock is enabled. Slider to change the max limit of visual animals can be accessed with Shift+T.
 
+Singleplayer only.
+
+Features:
+- Up to 200 visible animals per husbandry
+- In-game slider (Shift+T) to adjust the visual animal limit
+- Recommended button suggests a limit based on your PC's performance profile
+- Settings persist across sessions
+- Automatically disables when RealisticLivestock is active
+
 Changes from the original mod:
 - Fixed compatibility with other mods that hook into vehicle enter logic (e.g. CabCinematic).
 
 Source code: https://github.com/rittermod/FS25_MoreVisualAnimalsRM
+
+Changelog
+
+1.0.1.0:
+- First Ritter release (based on More Visual Animals by Arrow-kb)
+- Fixed compatibility with other mods that hook into vehicle enter logic (e.g. CabCinematic)
+
+1.0.0.1:
+- Original More Visual Animals mod by Arrow-kb
 ]]>
         </en>
         <de>
@@ -23,8 +41,28 @@ Source code: https://github.com/rittermod/FS25_MoreVisualAnimalsRM
 
 Erhöht die Anzahl der sichtbaren Tiere pro Platzierung auf 200. Hat keine Wirkung, wenn RealisticLivestock aktiviert ist. Der Schieberegler zum Ändern der maximalen Anzahl sichtbarer Tiere kann mit Shift+T aufgerufen werden.
 
+Nur Einzelspieler.
+
+Funktionen:
+- Bis zu 200 sichtbare Tiere pro Tierhaltung
+- Schieberegler im Spiel (Shift+T) zum Anpassen der Anzahl sichtbarer Tiere
+- Empfohlen-Taste schlägt ein Limit basierend auf dem Leistungsprofil deines PCs vor
+- Einstellungen bleiben über Sitzungen hinweg erhalten
+- Deaktiviert sich automatisch, wenn RealisticLivestock aktiv ist
+
 Änderungen gegenüber dem Originalmod:
 - Kompatibilitätsproblem mit anderen Mods behoben, die sich in die Fahrzeug-Einstiegslogik einklinken (z.B. CabCinematic).
+
+Quellcode: https://github.com/rittermod/FS25_MoreVisualAnimalsRM
+
+Änderungsprotokoll
+
+1.0.1.0:
+- Erste Ritter-Version (basierend auf More Visual Animals von Arrow-kb)
+- Kompatibilität mit anderen Mods behoben, die sich in die Fahrzeug-Einstiegslogik einklinken (z.B. CabCinematic)
+
+1.0.0.1:
+- Original More Visual Animals Mod von Arrow-kb
 ]]>
         </de>
         <fr>
@@ -32,15 +70,35 @@ Erhöht die Anzahl der sichtbaren Tiere pro Platzierung auf 200. Hat keine Wirku
 
 Augmente la limite visuelle d'animaux à 200 par emplacement. N'a aucun effet si RealisticLivestock est activé. Le curseur permettant de modifier la limite maximale d'animaux visibles est accessible à l'aide de la combinaison de touches Shift+T.
 
+Solo uniquement.
+
+Fonctionnalités:
+- Jusqu'à 200 animaux visibles par élevage
+- Curseur en jeu (Shift+T) pour ajuster la limite d'animaux visibles
+- Bouton Recommandé suggère une limite basée sur le profil de performance de votre PC
+- Les paramètres sont conservés entre les sessions
+- Se désactive automatiquement lorsque RealisticLivestock est actif
+
 Modifications par rapport au mod original:
 - Correction de la compatibilité avec d'autres mods qui modifient la logique d'entrée dans les véhicules (ex. CabCinematic).
+
+Code source: https://github.com/rittermod/FS25_MoreVisualAnimalsRM
+
+Journal des modifications
+
+1.0.1.0:
+- Première version Ritter (basée sur More Visual Animals par Arrow-kb)
+- Correction de la compatibilité avec d'autres mods qui modifient la logique d'entrée dans les véhicules (ex. CabCinematic)
+
+1.0.0.1:
+- Mod original More Visual Animals par Arrow-kb
 ]]>
         </fr>
     </description>
     <iconFilename>icon_MoreVisualAnimals.dds</iconFilename>
     <multiplayer supported="false"/>
     <extraSourceFiles>
-        <sourceFile filename="src/RLMedium.lua"/>
+        <sourceFile filename="scripts/RLMedium.lua"/>
     </extraSourceFiles>
     <l10n filenamePrefix="translations/translation"/>
     <inputBinding>

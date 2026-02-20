@@ -5,15 +5,15 @@ modSettingsDirectory = g_currentModSettingsDirectory
 
 
 local files = {
-	"src/animals/events/AnimalRidingEvent.lua",
-	"src/animals/husbandry/cluster/AnimalClusterHusbandry.lua",
-	"src/animals/husbandry/placeables/PlaceableHusbandryAnimals.lua",
-	"src/animals/husbandry/HusbandrySystem.lua",
-	"src/gui/VisualAnimalsDialog.lua",
-	"src/handTools/specializations/HandToolHorseBrush.lua",
-	"src/player/PlayerHUDUpdater.lua",
-	"src/player/PlayerInputComponent.lua",
-	"src/FSBaseMission.lua"
+	"scripts/animals/events/AnimalRidingEvent.lua",
+	"scripts/animals/husbandry/cluster/AnimalClusterHusbandry.lua",
+	"scripts/animals/husbandry/placeables/PlaceableHusbandryAnimals.lua",
+	"scripts/animals/husbandry/HusbandrySystem.lua",
+	"scripts/gui/VisualAnimalsDialog.lua",
+	"scripts/handTools/specializations/HandToolHorseBrush.lua",
+	"scripts/player/PlayerHUDUpdater.lua",
+	"scripts/player/PlayerInputComponent.lua",
+	"scripts/FSBaseMission.lua"
 }
 
 
