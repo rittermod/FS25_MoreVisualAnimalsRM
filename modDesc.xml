@@ -1,6 +1,6 @@
 <modDesc descVersion="106">
     <author>Ritter</author>
-    <version>1.0.1.0</version>
+    <version>1.0.1.1</version>
     <title>
         <en>More Visual Animals - Ritter version</en>
         <de>Mehr Visuelle Tiere - Ritter Version</de>
@@ -19,14 +19,18 @@ Features:
 - In-game slider (Shift+T) to adjust the visual animal limit
 - Recommended button suggests a limit based on your PC's performance profile
 - Settings persist across sessions
-- Automatically disables when RealisticLivestock is active
+- Automatically disables when RealisticLivestock, RealisticLivestockRM, MoreVisualAnimals, or EnhancedLivestock is active
 
 Changes from the original mod:
-- Fixed compatibility with other mods that hook into vehicle enter logic (e.g. CabCinematic).
+- Added compatibility check for multiple conflicting mods
+- Fixed compatibility with other mods that hook into vehicle enter logic (e.g. CabCinematic)
 
 Source code: https://github.com/rittermod/FS25_MoreVisualAnimalsRM
 
 Changelog
+
+1.0.1.1:
+- Added compatibility check for MoreVisualAnimals, RealisticLivestockRM, and EnhancedLivestock (mod auto-disables when any of these are active)
 
 1.0.1.0:
 - First Ritter release (based on More Visual Animals by Arrow-kb)
@@ -48,14 +52,18 @@ Funktionen:
 - Schieberegler im Spiel (Shift+T) zum Anpassen der Anzahl sichtbarer Tiere
 - Empfohlen-Taste schlägt ein Limit basierend auf dem Leistungsprofil deines PCs vor
 - Einstellungen bleiben über Sitzungen hinweg erhalten
-- Deaktiviert sich automatisch, wenn RealisticLivestock aktiv ist
+- Deaktiviert sich automatisch, wenn RealisticLivestock, RealisticLivestockRM, MoreVisualAnimals oder EnhancedLivestock aktiv ist
 
 Änderungen gegenüber dem Originalmod:
-- Kompatibilitätsproblem mit anderen Mods behoben, die sich in die Fahrzeug-Einstiegslogik einklinken (z.B. CabCinematic).
+- Kompatibilitätsprüfung für mehrere konfliktierende Mods hinzugefügt
+- Kompatibilitätsproblem mit anderen Mods behoben, die sich in die Fahrzeug-Einstiegslogik einklinken (z.B. CabCinematic)
 
 Quellcode: https://github.com/rittermod/FS25_MoreVisualAnimalsRM
 
 Änderungsprotokoll
+
+1.0.1.1:
+- Kompatibilitätsprüfung für MoreVisualAnimals, RealisticLivestockRM und EnhancedLivestock hinzugefügt (Mod deaktiviert sich automatisch, wenn einer dieser Mods aktiv ist)
 
 1.0.1.0:
 - Erste Ritter-Version (basierend auf More Visual Animals von Arrow-kb)
@@ -77,14 +85,18 @@ Fonctionnalités:
 - Curseur en jeu (Shift+T) pour ajuster la limite d'animaux visibles
 - Bouton Recommandé suggère une limite basée sur le profil de performance de votre PC
 - Les paramètres sont conservés entre les sessions
-- Se désactive automatiquement lorsque RealisticLivestock est actif
+- Se désactive automatiquement lorsque RealisticLivestock, RealisticLivestockRM, MoreVisualAnimals ou EnhancedLivestock est actif
 
 Modifications par rapport au mod original:
-- Correction de la compatibilité avec d'autres mods qui modifient la logique d'entrée dans les véhicules (ex. CabCinematic).
+- Ajout d'une vérification de compatibilité pour plusieurs mods en conflit
+- Correction de la compatibilité avec d'autres mods qui modifient la logique d'entrée dans les véhicules (ex. CabCinematic)
 
 Code source: https://github.com/rittermod/FS25_MoreVisualAnimalsRM
 
 Journal des modifications
+
+1.0.1.1:
+- Ajout d'une vérification de compatibilité pour MoreVisualAnimals, RealisticLivestockRM et EnhancedLivestock (le mod se désactive automatiquement si l'un de ces mods est actif)
 
 1.0.1.0:
 - Première version Ritter (basée sur More Visual Animals par Arrow-kb)

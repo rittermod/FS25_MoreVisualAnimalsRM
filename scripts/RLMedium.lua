@@ -19,7 +19,22 @@ local files = {
 
 function RLMedium.loadMap()
 
-	if not g_modIsLoaded["FS25_RealisticLivestock"] then
+	local conflictingMods = {
+		"FS25_RealisticLivestock",
+		"FS25_RealisticLivestockRM",
+		"FS25_MoreVisualAnimals",
+		"FS25_EnhancedLivestock",
+	}
+
+	local hasConflict = false
+	for _, modName in ipairs(conflictingMods) do
+		if g_modIsLoaded[modName] then
+			hasConflict = true
+			break
+		end
+	end
+
+	if not hasConflict then
 
 		for _, file in pairs(files) do source(modDirectory .. file) end
 
